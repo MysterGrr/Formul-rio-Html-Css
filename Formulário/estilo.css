@@ -1,0 +1,66 @@
+body{
+    background-color: #161616;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(83, 79, 79);
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+}
+
+label{
+    color: aliceblue;
+}
+
+select[name="UF"]{
+    background-color: rgb(66, 66, 66);
+    color: aliceblue;
+}
+select[name="UF"]:hover{
+    background-color: rgb(31, 30, 30);
+    
+}
+
+input{
+    background-color: rgb(66, 66, 66);
+    color: aliceblue;
+}
+
+input[type="submit"] {
+    background-color: rgb(91, 92, 92);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="submit"]:hover {
+    background-color: rgb(124, 124, 124);
+}
+  
+
+
+div{
+    color: aliceblue;
+    
+    line-height: 200px;
+}

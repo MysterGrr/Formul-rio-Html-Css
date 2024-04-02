@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1>Bem Vindo !!!</h1>
+
+    <nav>
+        <a href="#" title="Em desenvolvimento">Home</a>
+        <a href="#" title="Em desenvolvimento">Sobre</a>
+        <a href="#" title="Em desenvolvimento">Contato</a>
+    </nav><br><br>
+    <h2>Por favor, preencha seus dados abaixo</h2>
+    
+    <form>
+        <label> 
+            Nome completo: <input type="text" size=40 placeholder="Victor Bastos Cunha"><br><br>
+            Matricula: <input type="text" size=30 placeholder="202308259555"> <br><br>
+            Email: <input type="email" size="40" placeholder="victorbastos520@hotmail.com"><br><br>
+            Senha: <input type="password" name="Senha" size="30" placeholder="Digite sua senha"><br><br>
+            Confirme a Senha: <input type="password" name="Senha" size="30" placeholder="Confirme sua senha"><br><br> 
+            CPF: <input type="number" placeholder="xxx.xxx.xxx-xx"> <br><br>
+            Data de nascimento: <input type="date" size=6><br><br>
+            UF: <select name="UF">
+                <option selected> 
+                <option> Acre
+                <option> Alagoas
+                <option> Amapá
+                <option> Amazonas
+                <option> Bahia
+                <option> Ceará
+                <option> Distrito Federal
+                <option> Espirito Santo
+                <option> Goiás
+                <option> Maranhão
+                <option> Mato Grosso
+                <option> Mato Grosso do Sul
+                <option> Minas Gerais
+                <option> Pará
+                <option> Paraíba
+                <option> Paraná
+                <option> Pernambuco
+                <option> Piauí
+                <option> Rio De Janeiro
+                <option> Rio Grande do Norto
+                <option> Rio Grande do Sul
+                <option> Rondônia
+                <option> Roraima
+                <option> Santa Catarina
+                <option> São Paulo
+                <option> Sergipe
+                <option> Tocantins
+            </select><br><br>
+
+            Sexo:
+            <br><input type="radio" checked name="Sexo"> Masculino <br>
+            <input type="radio" name="Sexo"> Feminino <br>
+            <input type="radio" name="Sexo"> Outros <br><br>
+            Idioma:
+            <br><input type="checkbox" name="idioma"> Inglês <br>
+            <input type="checkbox" name="idioma"> Espanhol <br>
+            Outro, qual ? <textarea name="idioma" cols="15" rows="1"></textarea>
+        <br><br>
+        </label>
+    </form>
+    
+    <form action="Confirmação de envio.html" target="_blank" rel="noopener noreferrer">
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <div style="text-align:right">
+        <footer>
+            Copyright &copy; 2024
+        </footer>
+    </div>
+</body>
+
